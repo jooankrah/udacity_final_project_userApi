@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: finalproj-user-api
-          image: jooankrah/finalproj-user-api-image
+          image: jooankrah/finalproj-user-api-image:latest
           ports:
             - containerPort: 3000
